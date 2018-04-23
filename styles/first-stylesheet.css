@@ -1,0 +1,61 @@
+* { box-sizing: border-box;}
+* { margin: 0; padding: 0; }
+/*https://necolas.github.io/normalize.css/8.0.0/normalize.css*/
+header {
+  text-align: center;
+  font-family: "Trebuchet MS,", Helvetica, sans-serif;
+  color: teal;
+  text-shadow: 2px 5px 10px ;
+  padding: 1rem 2rem;
+  border: 0 1rem;
+  border-style: groove;
+  background-color: aliceblue;
+  margin: .1rem;
+}
+
+.hover{
+  color: orangered;
+}
+
+body {
+  margin: 2rem;
+  font-family: "Jua";
+  color: chartreuse;
+  padding: 0.5rem 3rem;  
+  border-color: dimgrey;
+  border-style: inset;
+  background-color:dimgray;
+}
+
+body p{
+  text-align: justify;
+  padding: 1rem;
+}
+
+body nav {
+  position: relative;
+  left:9%;
+  text-align: center;
+  color: teal;
+  background-color: antiquewhite;
+  opacity: .4;
+  height: 1.5rem;
+  width: 75%;
+  margin:3rem 2rem
+
+}
+
+footer {
+  position: relative;
+  bottom: -40px;
+  left:25%;
+  text-align: center;
+  font-family: "Walter Turncoat", regular;
+  padding: .5rem 3rem;
+  color: lightcoral;
+  border: inset 0.1rem yellow;
+  background-color: darkslategray;
+  height:10rem;
+  width: 20rem;
+ 
+}
